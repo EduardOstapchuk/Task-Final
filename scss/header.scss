@@ -1,0 +1,95 @@
+header {
+  height: 100vh;
+  width: 100vw;
+  background: url(../assets/bg_head.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  #head {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .logo {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+  }
+  li {
+    padding-right: 57px;
+  }
+  #link_item {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    &:hover {
+      transition: ease-in 0.2s;
+      color: #fce38a;
+      border-bottom: 2px solid #fce38a;
+      padding: 12px 0;
+    }
+  }
+  #cart {
+    width: 18px;
+    height: 15px;
+    margin: 2px 25px;
+    cursor: pointer;
+  }
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+  .title {
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: 400;
+  }
+  .title_h2 {
+    margin-top: 42px;
+    width: 802px;
+    height: 248px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 130px;
+    text-transform: uppercase;
+  }
+  .border {
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 71px;
+  }
+  #button {
+    width: 160px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #f38181;
+    }
+  }
+}
